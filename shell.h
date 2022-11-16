@@ -158,7 +158,7 @@ void ffree(char **);
 void *_realloc(void *, unsigned int, unsigned int);
 
 /* toem_memory.c */
-int bfree(void **);
+int freePointer(void **);
 
 /* toem_atoi.c */
 int interactive(info_t *);
@@ -174,8 +174,8 @@ char *convert_number(long int, int, int);
 void remove_comments(char *);
 
 /* toem_builtin.c */
-int _myexit(info_t *);
-int _mycd(info_t *);
+int _exitShell(info_t *);
+int _changeDir(info_t *);
 int _myhelp(info_t *);
 
 /* toem_builtin1.c */
