@@ -6,7 +6,7 @@
  *
  * Return: 1 if freed, otherwise 0.
  */
-int bfree(void **ptr)
+int freePointer(void **ptr)
 {
 	if (ptr && *ptr)
 	{
