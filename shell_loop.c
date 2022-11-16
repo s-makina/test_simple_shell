@@ -2,8 +2,8 @@
 
 /**
  * hsh - main shell loop
- * @info: the parameter & return info struct
- * @av: the argument vector from main()
+ * @info: the parameter
+ * @av: the argument vector
  *
  * Return: 0 on success, 1 on error, or error code
  */
